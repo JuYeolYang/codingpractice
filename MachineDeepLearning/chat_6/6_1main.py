@@ -25,7 +25,7 @@ pineapple = fruits[100:200].reshape(-1, 100*100)
 banana = fruits[200:300].reshape(-1, 100*100)
 
 #샘플마다 픽셀의 평균값 계산
-#axis=0(행, 세로), axis=1(열, 가로)
+#axis=0(행, 가로), axis=1(열, 세로)
 print(apple.shape)#(100, 10000)
 print(apple.mean(axis=1))
 
