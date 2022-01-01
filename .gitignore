@@ -3,3 +3,4 @@
 .ipynb_checkpoints
 *.dSYM
 *.txt
+!backjoon/record.txt
