@@ -1,5 +1,5 @@
 from sklearn.model_selection import train_test_split
-import perchData as pd
+import perchdata as pd
 import numpy as np
 
 #훈련 세트와 테스트 세트로 나눈다.

@@ -1,5 +1,5 @@
 import matplotlib.pyplot as plt
-import perchData as pd
+import perchdata as pd
 import numpy as np
 
 plt.scatter(pd.perch_length,pd.perch_weight)
