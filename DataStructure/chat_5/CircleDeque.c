@@ -69,6 +69,7 @@ void add_rear(DequeType *q, element item){
     q->data[q->rear] = item;
 }
 
+// 삭제 함수
 element delete_rear(DequeType *q){
     int prev = q->rear;
     if(is_empty(q)) error("큐가 공백상태입니다.");
