@@ -5,7 +5,7 @@
 4.클러스터 중심에 변화가 없을 때까지 2번으로 돌아가 반복한다
 '''
 import numpy as np
-fruits = np.load('MachineDeepLearning/chat_6/fruits_300.npy')
+fruits = np.load('fruits_300.npy')
 fruits_2d = fruits.reshape(-1, 100*100)
 
 #KMeans클래스

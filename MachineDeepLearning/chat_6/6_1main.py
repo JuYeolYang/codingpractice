@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-fruits = np.load('MachineDeepLearning/chat_6/fruits_300.npy')
+fruits = np.load('fruits_300.npy')
 #첫 번째:샘플의 개수, 두 번째:이미지 높이, 세 번째:이미지 너비
 print(fruits.shape)#(300, 100, 100)
 print(fruits[0, 0, :])

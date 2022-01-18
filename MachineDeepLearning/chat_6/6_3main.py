@@ -1,5 +1,5 @@
 import numpy as np
-fruits = np.load('MachineDeepLearning/chat_6/fruits_300.npy')
+fruits = np.load('fruits_300.npy')
 fruits_2d = fruits.reshape(-1, 100*100)
 
 #PCA클래스
